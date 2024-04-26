@@ -1,0 +1,6 @@
+
+Amazon S3,NetBackup supports cloud storage from the vendors that use the Amazon S3 storage API for their storage. Information about the requirements and configuration options for the Amazon S3 storage API vendors is provided as follows
+Configuration Wizard,A Cloud Storage Server Configuration wizard is incorporated to facilitate the cloud storage setup and storage provisioning. Cloud storage provisioning now happens entirely through the NetBackup interface
+Compression,NetBackup Cloud Storage Compression compresses the data inline before it is sent to the cloud. The compression feature uses a third-party library called LZO Pro (with compression level 3).
+Throttling,NetBackup Cloud Storage throttling controls the data transfer rates between your network and the cloud. The throttling values are set on a per NetBackup media server basis.
+Storage providers,Veritas currently supports several cloud storage providers. More information is available about each of these vendors.
